@@ -1,0 +1,120 @@
+[
+    {
+        "name": "Python",
+        "icon": "https://img.icons8.com/?size=100&id=13441&format=png&color=000000"
+    },
+    {
+        "name": "Google Collab",
+        "icon": "https://img.icons8.com/?size=100&id=lOqoeP2Zy02f&format=png&color=000000"
+    },
+    {
+        "name": "Jupyter",
+        "icon": "https://img.icons8.com/?size=100&id=J0SgMWzAxqFj&format=png&color=000000"
+    },
+    {
+        "name": "Numpy",
+        "icon": "https://img.icons8.com/?size=100&id=aR9CXyMagKIS&format=png&color=000000"
+    },
+    {
+        "name": "Pandas",
+        "icon": "https://img.icons8.com/?size=100&id=xSkewUSqtErH&format=png&color=000000"
+    },
+    {
+        "name": "Matplotlib",
+        "icon": "https://i.ibb.co/XCMLzD3/matplotlib.png"
+    },
+    {
+        "name": "Seaborn",
+        "icon": "https://i.ibb.co/kqhvyCF/seaborn.png"
+    },
+    {
+        "name": "Scikit-Learn",
+        "icon": "https://i.ibb.co/qJ9MJTq/sklearn.png"
+    },
+    {
+        "name": "Mathematics",
+        "icon": "https://img.icons8.com/?size=100&id=OphppcXFtsFO&format=png&color=000000"
+    },
+    {
+        "name": "Statistics",
+        "icon": "https://img.icons8.com/?size=100&id=QemG6zV0OIia&format=png&color=000000"
+    },
+    {
+        "name": "Excel",
+        "icon": "https://i.ibb.co/7C4tT9t/excel.png"
+    },
+    {
+        "name": "SQL",
+        "icon": "https://i.ibb.co/Zmm1JbK/sql.png"
+    },
+    {
+        "name": "R",
+        "icon": "https://i.ibb.co/mTGrq6n/r.png"
+    },
+    {
+        "name": "Tableau",
+        "icon": "https://i.ibb.co/mqkWYxF/tableau.png"
+    },
+    {
+        "name": "Power BI",
+        "icon": "https://i.ibb.co/N7436y4/powerbi.png"
+    },
+    {
+        "name": "Machine Learning",
+        "icon": "https://i.ibb.co/GPLwDkB/machinelearning.png"
+    },
+    {
+        "name": "NLP",
+        "icon": "https://i.ibb.co/YD7Jjkn/nlp.png"
+    },
+    {
+        "name": "Visualization",
+        "icon": "https://i.ibb.co/X27qMB1/visualization.png"
+    },
+    {
+        "name": "Tensor Flow",
+        "icon": "https://i.ibb.co/bXZLWQF/tensorflow.png"
+    },
+    {
+        "name": "Firebase",
+        "icon": "https://i.ibb.co/dGgLpPZ/firebase.png"
+    },
+    {
+        "name": "Scipy",
+        "icon": "https://i.ibb.co/s6qf3gd/scipy.png"
+    },
+    {
+        "name": "GitHub",
+        "icon": "https://i.ibb.co/xFdjsm4/github.png"
+    },
+    {
+        "name": "C++",
+        "icon": "https://i.ibb.co/R4TcrBK/c.png"
+    },
+    {
+        "name": "C",
+        "icon": "https://i.ibb.co/9qxfQDF/c.png"
+    },
+    {
+        "name": "Java",
+        "icon": "https://i.ibb.co/fvfY1W8/java.png"
+    },
+    {
+        "name": "HTML5",
+        "icon": "https://i.ibb.co/VwfcYpq/html.png"
+    },
+    {
+        "name": "CSS3",
+        "icon": "https://i.ibb.co/2NgJ972/css.png"
+    },
+    {
+        "name": "Bootstrap",
+        "icon": "https://i.ibb.co/ky5PRH5/bootstrap.png"
+    },
+    {
+        "name": "Javascript",
+        "icon": "https://i.ibb.co/SsQSBNY/Javascript.png"
+    }
+    
+      
+]

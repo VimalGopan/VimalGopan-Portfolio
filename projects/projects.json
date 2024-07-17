@@ -1,0 +1,77 @@
+[
+  {
+    "name": "Bank Churners Prediction",
+    "desc": "",
+    "image": "bankchurners",
+    "category": "Machine Learning",
+    "links": {
+      "code": "https://github.com/VimalGopan/Bank-Churners-Prediction"
+    }
+  },
+  {
+    "name": "Creating Cohorts of Songs Project",
+    "desc": "",
+    "image": "cohertofsongs",
+    "category": "Machine Learning",
+    "links": {
+      "code": "https://github.com/VimalGopan/Creating-Cohorts-of-Songs-Project"
+    }
+  },
+  {
+    "name": "Sales Analysis",
+    "desc": "",
+    "image": "salesanalysis",
+    "category": "Data Science",
+    "links": {
+      "code": "https://github.com/VimalGopan/Sales-Analysis"
+    }
+  },
+  {
+    "name": "Movielens Case Study Project",
+    "desc": "",
+    "image": "movielens",
+    "category": "Data Visualization",
+    "links": {
+      "code": "https://github.com/VimalGopan/Movielens-Case-Study-Project"
+    }
+  },
+  {
+    "name": "Responsive SpaceX",
+    "desc": "",
+    "image": "responsivespacex",
+    "category": "Web Development",
+    "links": {
+      "view": "https://vimalgopan.github.io/ResponsiveSpaceX/",
+      "code": "https://github.com/VimalGopan/ResponsiveSpaceX"
+    }
+  },
+  {
+    "name": "McDonalds Clone",
+    "desc": "",
+    "image": "mcdonaldsclone",
+    "category": "Web Development",
+    "links": {
+      "view": "https://vimalgopan.github.io/McDonalds/",
+      "code": "https://github.com/VimalGopan/McDonalds"
+    }
+  },
+  {
+    "name": "SpaceX Clone",
+    "desc": "",
+    "image": "spacexclone",
+    "category": "Web Development",
+    "links": {
+      "view": "https://vimalgopan.github.io/SpaceX/",
+      "code": "https://github.com/VimalGopan/SpaceX"
+    }
+  },
+  {
+    "name": "Data Science - Library",
+    "desc": "",
+    "image": "library",
+    "category": "Data Science",
+    "links": {
+      "code": "https://github.com/VimalGopan/Data-Science-Library"
+    }
+  }
+]
