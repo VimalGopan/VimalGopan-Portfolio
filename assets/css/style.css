@@ -1169,6 +1169,11 @@ form .button-area {
   align-items: center;
 }
 
+.redirect .mail {
+  text-transform: none
+}
+
+
 .footer .credit a {
   color: #FF006C;
 }
