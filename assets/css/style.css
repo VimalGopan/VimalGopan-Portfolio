@@ -1164,6 +1164,11 @@ form .button-area {
   color: #fff;
   border-top: 0.1rem solid #fff3;
 }
+.redirect {
+  display: inline-flex;
+  align-items: center;
+}
+
 .footer .credit a {
   color: #FF006C;
 }
