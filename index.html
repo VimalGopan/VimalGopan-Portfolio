@@ -265,9 +265,6 @@
   </div>
 </div>
 
-</section>
-<!-- experience section ends -->
-
 <!-- contact section starts -->
 <section class="contact" id="contact">
   
@@ -284,18 +281,22 @@
         <div class="field">
           <input type="text" name="name" placeholder="Name" required>
           <i class='fas fa-user'></i>
+          <span id="nameError" class="error"></span>
         </div>
         <div class="field">
-          <input type="text" name="email" placeholder="Email" required>
+          <input type="email" name="email" placeholder="Email" required>
           <i class='fas fa-envelope'></i>
+          <span id="emailError" class="error"></span>
         </div>
         <div class="field">
           <input type="text" name="phone" placeholder="Phone">
           <i class='fas fa-phone-alt'></i>
+          <span id="phoneError" class="error"></span>
         </div>
         <div class="message">
-        <textarea placeholder="Message" name="message" required></textarea>
-        <i class="fas fa-comment-dots"></i>
+          <textarea placeholder="Message" name="message" required></textarea>
+          <i class="fas fa-comment-dots"></i>
+          <span id="messageError" class="error"></span>
         </div>
         </div>
       <div class="button-area">
@@ -392,6 +393,66 @@
     a.click()
     document.body.removeChild(a)
   })
+</script>
+
+<script>
+  (function() {
+      emailjs.init("Xth5vkqzpkoUZFFWW");
+  })();
+
+  $("#contact-form").submit(function(event) {
+      event.preventDefault();
+
+      // Clear previous error messages
+      $('#nameError').text('');
+      $('#emailError').text('');
+      $('#phoneError').text('');
+      $('#messageError').text('');
+
+      let valid = true;
+
+      // Validate name (must contain a space followed by a single letter)
+      const name = $('[name="name"]').val();
+      const nameRegex = /^[a-zA-Z]+(?: [a-zA-Z])?$/;
+      if (!nameRegex.test(name)) {
+          $('#nameError').text('Only alphabets are allowed');
+          valid = false;
+      }
+
+      // Validate email (must contain '@')
+      const email = $('[name="email"]').val();
+      if (!email.includes('@')) {
+          $('#emailError').text('Please enter a valid email.');
+          valid = false;
+      }
+
+      // Validate phone number (must be exactly 10 digits)
+      const phone = $('[name="phone"]').val();
+      const phoneRegex = /^\d{10}$/;
+      if (!phoneRegex.test(phone)) {
+          $('#phoneError').text('Phone number must be exactly 10 digits.');
+          valid = false;
+      }
+
+      // Validate message (must not be empty)
+      const message = $('[name="message"]').val();
+      if (message.trim() === '') {
+          $('#messageError').text('Please type a message.');
+          valid = false;
+      }
+
+      if (valid) {
+          emailjs.sendForm('service_m72u1dg', 'template_a38g02e', '#contact-form')
+              .then(function(response) {
+                  console.log('SUCCESS!', response.status, response.text);
+                  $("#contact-form")[0].reset();
+                  alert("Form Submitted Successfully");
+              }, function(error) {
+                  console.log('FAILED...', error);
+                  alert("Form Submission Failed! Try Again");
+              });
+      }
+  });
 </script>
 
 </body>
