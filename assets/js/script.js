@@ -38,6 +38,8 @@ $(document).ready(function () {
     });
 
     // <!-- emailjs to mail contact form data -->
+
+    /*
     $("#contact-form").submit(function (event) {
         emailjs.init("Xth5vkqzpkoUZFFWW");
 
@@ -52,6 +54,8 @@ $(document).ready(function () {
             });
         event.preventDefault();
     });
+
+    */
     // <!-- emailjs to mail contact form data -->
 
 });
