@@ -59,12 +59,14 @@ header .logo{
   font-weight: 800;
   text-decoration: none;
   color: #0E2431;
+  display: inline-flex;
+  align-items: center;
 }
 header .logo i {
   font-size: 2.2rem;
 }
 header .logo:hover {
-  color: #fc8c05;
+  color: #FF006C;
 }
 header .navbar ul{
   list-style: none;
@@ -131,9 +133,9 @@ header .navbar ul li a:hover{
   header .navbar ul li a.active,
   header .navbar ul li a:hover{
     padding: 1rem;
-    color: #fff;
+    color: #FF006C;
     border-radius: .5rem;
-    border-bottom: .5rem solid #011aff;
+    border-bottom: .5rem solid #FF006C;
   }
   .fa-times{
     transform: rotate(180deg);
